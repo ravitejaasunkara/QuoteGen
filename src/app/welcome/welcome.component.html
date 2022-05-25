@@ -1,0 +1,20 @@
+<body>
+    <div class="container card py-3 bg-light mt-5">
+        <h1>Welcome to QuoteGenerator.....!</h1>
+        <p>This app will generate some quotes that will inspires you a bit...😁</p>
+        <hr>
+        <!-- <h1 style="font-family:cursive;text-align:center"></h1> -->
+        <div class="col-md-4my-3">
+        <h5><label for="">Enter your name to view the quotes..</label></h5>
+        <input #name type="text" class="form-control" placeholder="Enter you name kiddo">
+        <br/>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-success"
+            (click)="storeName()"
+            routerLink="/quotes"
+            [disabled]=""
+            >Start Exploring.!</button>
+        </div>
+    </div>
+</body>

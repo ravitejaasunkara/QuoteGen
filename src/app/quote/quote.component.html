@@ -1,0 +1,19 @@
+<div class="container card mt-3">
+    <div class="mt-5">
+        <div class="d-flex justify-content-between">
+            <div>
+                <h3 style="color:coral;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Quotations</h3>
+            </div>
+            <div>
+                <h6 style="color:darkorchid;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Welcome {{username | uppercase}}</h6>
+            </div>
+        </div>
+        <hr>
+        <div class="container card d-flex justify-content-around" id="quote-card">
+            <p class="fs-5" style="font-family:sans-serif">{{quoteList[quoteNum]}}</p>
+        </div>
+        <div class="text-center mt-3">
+            <button class="btn btn-danger" (click)="nextQuote()">Next Quote</button>
+        </div>
+    </div>
+</div>

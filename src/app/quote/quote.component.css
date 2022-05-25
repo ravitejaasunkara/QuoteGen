@@ -1,0 +1,8 @@
+.card{
+    max-width: 600px;
+}
+#quote-card{
+    max-width: 450px;
+    border: 1px solid royalblue;
+    height: 350px;
+}
